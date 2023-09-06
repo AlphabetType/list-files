@@ -13,6 +13,14 @@ If you want to investigate the command line arguments, then you can check out th
 
 ## Installation as a User
 
+If you have Python installed on your system, then you can install Alphabet FileList with `pip`. Open the terminal and run this command:
+
+```bash
+$ python -m pip install git+https://github.com/AlphabetType/list-files
+```
+
+You can verify that the installation was succesful by running the `filelist` command in your terminal.
+
 ## Installation as a Developer
 
 Clone this repository and navigate into the repository folder. After that, it's a good idea to create a virtual environment and activate it:
