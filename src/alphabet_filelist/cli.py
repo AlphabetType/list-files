@@ -1,10 +1,11 @@
 import argparse
+
 from alphabet_filelist.filelist import (
-    print_extensions,
-    print_folderpath,
-    print_filepaths,
-    validate_extensions,
     list_files,
+    print_extensions,
+    print_filepaths,
+    print_folderpath,
+    validate_extensions,
     validate_folderpath,
 )
 
