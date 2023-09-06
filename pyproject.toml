@@ -8,3 +8,10 @@ version = "1.1.1"
 
 [project.scripts]
 filelist = "alphabet_filelist.cli:main"
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+exclude = ["venv", "00-Material"]
+max-line-length = 88
