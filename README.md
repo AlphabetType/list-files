@@ -38,3 +38,20 @@ Make sure that you're in the root folder of the cloned repository. Then, you can
 ```
 
 You can verify that the installation was succesful by running the `filelist` command in your terminal.
+
+To install all development requirements, run this command:
+
+```bash
+(venv) $ python -m pip install -r requirements.txt
+```
+
+
+## Code Conventions
+
+To stick to the same code conventions of this Repo, please run `black`, `isort`, and `flake8` before committing changes:
+
+```
+(venv) $ black . && isort . && flake8
+```
+
+With this command, `black` and `isort` will fix any formatting in the files of the current working directory and its subdirectories. After that, you may need to fix the errors that `flake8` points out.
